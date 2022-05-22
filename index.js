@@ -7,7 +7,7 @@ app.get("/hola", function (req, res) {
     res.json({ message: "hola soy el servidor" });
 });
 app.listen(3000, function () {
-    console.log("Hola soy express corriendo en " + port);
+    console.log("Hola soy express en" + port);
 });
 // class User {
 //   nombre: string;
